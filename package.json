@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,10 @@
     "express-session": "^1.15.5",
     "got": "^7.1.0",
     "oauth2-server": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "sinon": "^3.2.1",
+    "supertest": "^3.0.0"
   }
 }
